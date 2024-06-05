@@ -6,13 +6,30 @@ void main() {
   print("Element found at index : $value");
 }
 
+// void main() {
+//   List<int> list = [10, 20, 30, 10, 45, 45];
+//   list = removeDuplicates(list: list);
+//   print(list);
+// }
+
+// List<int> removeDuplicates({required List<int> list}) {
+//   Set<int> set = {};
+//   for (int i = 0; i < list.length; i++) {
+//     if (!set.contains(list[i])) {
+//       set.add(list[i]);
+//     }
+//     set.add(list[i]);
+//   }
+//   return set.toList();
+// }
+
 // int binarySearch({
 //   required List<int> list,
 //   required int target,
 //   required int start,
 //   required int end,
 // }) {
-  
+
 //   int mid = start + (end - start) ~/ 2;
 //   if (target==list[mid]) {
 //     return mid;
